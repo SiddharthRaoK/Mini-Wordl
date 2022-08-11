@@ -1,0 +1,16 @@
+Hello user , welcome to the infamous and mind boggiling game called 'WORDL'
+Following are the instructions which will guide u in playing the game :
+1. Your ultimate goal is to identify the word which the game wants you to identify (its random )
+2. You will be given six chances to input the word (it should have 5 letter) and you have to guess the correct word in the given turns only . You will be getting clues in every line which will help you get closer to answer
+3. whenever you input a word it will be reflected back with each letter of the input word coloured in different colours signifying the following :
+   a. If the letter is green it means that coloured letter is present in the answer word and also it is as the same position as its in answer word.
+   b. If the letter is yellow it means that coloured letter is present in the answer word but not in same position as the answers word .
+   c. If the letter is white it means that coloured letter is not present in the answer word and you must avoid those letters in future tries.
+4. If  the user is able to guess the exact letters in any one of the tries wins the game but only 6 chances will be availabe.
+5. If the player is unable to guess 5 letters of the answer word , the player loses . 
+
+
+For the game to run we must download coloroma which will add colour to the letters .
+Following are the steps user need to follow to download it :
+In the console write (pip install colorama)
+                 
