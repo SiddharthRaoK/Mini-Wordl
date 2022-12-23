@@ -11,7 +11,7 @@ for i in range(0, 5):
 guess_List = []
 count = 0
 chance = 6                                  #Alloting 6 chances for the player
-with open("ANSWERS.txt" , "r") as g_Read:            #Reading file 'GUESS.txt' and closing it once used
+with open("GUESS.txt" , "r") as g_Read:            #Reading file 'GUESS.txt' and closing it once used
     for x in g_Read:
         guess_List.append(x.strip())            #Making a list of the possible guess words to check on once the user puts his word
 alph_Used =[]
